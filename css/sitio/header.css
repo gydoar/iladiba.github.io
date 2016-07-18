@@ -72,11 +72,11 @@ header{
 	font-size: 14px;
 	color: #ffffff;
 	font-weight: 300;
-	padding: 0px 4px 0px 4px;
+	padding: 0px 3px 0px 3px;
 }
 .menu__header li a:hover, .menu__header li a:active,.menu__header li a:focus{
 	border: 2px solid #ffffff;
-	padding: 0px 2px 0px 2px;
+	padding: 0px 1px 0px 1px;
 }
 .buscar{
 	border-left: 1px solid #ffffff;

@@ -18,13 +18,11 @@
 	top: 50%;
 	z-index: 20;
 	display: block;
-	width: 60px;
-	height: 60px;
+	width: 40px;
+	height: 40px;
 	text-indent: -9999px;
 	background-repeat: no-repeat;
-	background-color: rgba(0,0,0,0.5);
-	border-radius: 50px;
-	background-size: 48px 48px;
+	background-size: 38px 38px;
 	cursor: pointer;
 	opacity: 0;
 	-webkit-transform: translateY(-50%);
@@ -89,26 +87,29 @@
 .iis-has-captions .iis-slide { text-indent: 0; }
 .iis-caption {
 	position: absolute;
-	left: 5%;
-	bottom: 5%;
-	max-width: 90%;
+	left: 0%;
+	bottom: 0%;
+	max-width: 100%;
+	width: 100%;
 	z-index: 10;
 	background: #000;
-	background: rgba(0,0,0,0.5);
-	padding: 5px 15px;
-	border-radius: 10px;
+	background: rgba(255,255,255,0.5);
+	padding: 5px 15px 5px 50px;
+	border-radius: 0px;
 	font: 14px/1.6em "Helvetica Neue", Helvetica, Arial, sans-serif;
-	color: #fff;
+	color: #0C0C0C;
+
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
 .iis-has-bullet-nav .iis-caption { max-width: 42%; }
-.iis-caption .iis-caption-title { font-weight: bold; }
+.iis-caption .iis-caption-title { line-height: 12px; font-size: 12px;font-weight: 500; }
 .iis-caption .iis-caption-content {
-	font-size: 13px;
+	font-size: 16px;
 	line-height: 1.6em;
-	color: #eee;
+	color: #0C0C0C;
+	font-weight: bold;
 }
 .iis-caption .iis-caption-content a,
 .iis-caption .iis-caption-content a:visited {
