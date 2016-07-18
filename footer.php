@@ -27,6 +27,49 @@
 			<li><a href="#"><img width="161px" src="images/footer/logo_salud_hoy.png" alt="Logo Salud Hoy"></a></li>
 		</ul>
 	</div>
+
+	<!-- Copyright -->
+	<div class="copyright">
+		<div class="container">
+			<div class="six columns">
+				<!-- Contact copyright -->
+				<ul class="copyright__contact">
+					<li>
+						<img width="21px" src="images/footer/icon_map.png" alt="Icon Map">
+						<p>Calle 30A No. 6- 22<br>Bogotá, Colombia</p>
+					</li>
+					<li>
+						<img width="22px" src="images/footer/icon_tel.png" alt="Icon Tel">
+						<p>Calle 30A No. 6- 22<br>Bogotá, Colombia</p>
+					</li>
+				</ul>
+				
+				<!-- Iconos sociales copyright -->
+
+				<ul class="copyright__social">
+					<li><a href="#"><img widthn="12px" src="images/footer/icon_twitter.png" alt="Twitter"></a></li>
+					<li><a href="#"><img widthn="12px" src="images/footer/icon_facebook.png" alt="Facebook"></a></li>
+					<li><a href="#"><img widthn="12px" src="images/footer/icon_linkedin.png" alt="Linkeding"></a></li>
+				</ul>
+			</div>
+
+			<!-- Texto y logo Tekton Copyright -->
+			<div class="six columns">
+				<div class="row">
+					<div class="nine columns text__copyright center">
+						<p><strong>Todos los derechos reservados a Editorial Maldonado S.A  - ISSN 1657 - 5628</strong></p>
+						<p>Se prohíbe la reproducción total o parcial de los contenidos, así como <br>su traducción a cualquier idioma sin autorización escrita del titular</p>
+					</div>
+
+					<div class="three columns">
+						<a href="#"><img width="171px" class="twelve columns" src="images/footer/logo_tekton.png" alt="Logo Tekton"></a>
+					</div>
+				</div>
+					
+				
+			</div>
+		</div>
+	</div>
 </footer>
 
 

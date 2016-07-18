@@ -95,6 +95,7 @@ header{
 /* Footer */
 footer{
 	background-color: #E2E2E2;
+	font-size: 12px;
 }
 .menu__footer{
 	text-align: center;
@@ -118,19 +119,76 @@ footer{
 .menu__footer ul li:last-child:after{
 	content: none;
 }
+.footer__logos h3{
+	font-size: 16px;
+	color: #0C0C0C;
+	font-weight: 400;
+	letter-spacing: .2px;
+	margin-bottom: 0px;
+}
 .footer__logos{
 	background-color: #EDEDED;
 	text-align: center;
+	padding: 10px 0px;
 }
 .footer__logos ul li{
 	display: inline-block;
 	margin: 0px 20px;
 	vertical-align: middle;
 }
-.footer__logos ul li img{
-
+.copyright{
+	
 }
+.copyright__contact ,.copyright__social{
+	display: inline-block;
+	padding: 10px 0px;
+	margin-bottom: 0px;
+}
+.copyright__contact li{
+	margin-right: 30px;
+	list-style: none;
+	display: inline-block;
+}
+.copyright__contact li p{
+	margin-bottom: 0px;
+	line-height: 16px;
+	font-size: 12px;
+	vertical-align: middle;
+	font-weight: 500;
+}
+.copyright__contact li img{
+	margin-right: 10px;
+}
+.copyright__contact li img, .copyright__contact li p{
+	display: inline-block;
+	vertical-align: middle;
+}
+.copyright__social{
+	margin-left: 20px;
+}
+.copyright__social li{
+	display: inline-block;
+	padding: 0px 5px;
+}
+.copyright__social li img{
+	vertical-align: bottom;
+}
+.text__copyright{
+	padding: 10px 0px;
+}
+
+.text__copyright p{
+	margin-bottom: 0px;
+	font-size: 10px;
+}
+
+
+
+
 /* Simplificados */
 .right{
 	text-align: right;
+}
+.center{
+	text-align: center;
 }
