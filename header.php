@@ -19,8 +19,7 @@
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/skeleton.css">
+
   <link rel="stylesheet" href="css/style.css">
 
   <!-- Favicon
@@ -60,9 +59,9 @@
 
           <!-- Menu Social Header -->
           <ul class="menu__social__header">
-            <a href="#"><img width="20px" src="images/header/icon_facebook.png" alt="Facebook"></a>
-            <a href="#"><img width="20px" src="images/header/icon_twitter.png" alt="Twitter"></a>
-            <a href="#"><img width="20px" src="images/header/icon_linkedin.png" alt="Linkedin"></a>
+            <a target="new" href="#"><img width="20px" src="images/header/icon_facebook.png" alt="Facebook"></a>
+            <a target="new" href="#"><img width="20px" src="images/header/icon_twitter.png" alt="Twitter"></a>
+            <a target="new" href="#"><img width="20px" src="images/header/icon_linkedin.png" alt="Linkedin"></a>
           </ul>
         </section>
       </div>

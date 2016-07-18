@@ -1,194 +1,23 @@
-/* Header */
-header{
-	padding: 5px 0px;
-}
-.menu__top__header, .menu__login, .menu__social__header{
-	margin: 0px;
-}
-.menu__top__header li, .menu__login li, .menu__social__header{
-	display: inline-block;
-	margin-bottom: 8px;
-}
-.menu__top__header li a, .menu__login li a{
-	font-weight: 700;
-	color: #656666;
-	text-decoration: none;
-	font-size: 12px;
-	padding: 0px 5px 0px 3px;
-}
-.menu__top__header li a:hover, .menu__login li a:hover, .menu__top__header li a:focus,.menu__top__header li a:active, .menu__login li a:focus, .menu__login li a:active, .menu__footer ul li a:hover, .menu__footer ul li a:active, .menu__footer ul li a:focus{
-	text-decoration: underline;
-}
-.menu__top__header li:after, .menu__footer ul li:after{
-	color: #656666;
-	content: "|";
-}
-.menu__top__header, .menu__login{
-	display: inline-block;
-}
-.menu__login .color__rojo{
-	color: #9B052C;
-}
+/* Librerias*/
+/* Agregue aquí librerias adicionales que desea utiliza */
+@import url('../css/librerias/normalize.css');
+@import url('../css/librerias/skeleton.css');
+@import url('../css/librerias/ideal-image-slider.css'); /* Slider */
+@import url('../css/librerias/theme-image-slider.css'); /* Theme Slider */
 
-.menu__social__header img{
-	display: inline-block;
-	vertical-align: middle;
-	padding: 0px 3px 0px 3px;
-	filter:grayscale(100%);
-	-webkit-filter:grayscale(100%);
-	-moz-filter:grayscale(100%);
-	-ms-filter:grayscale(100%);
-	-o-filter:grayscale(100%);
 
-	
-}
-.menu__social__header img:hover{
-	filter:grayscale(0%);
-	-webkit-filter:grayscale(0%);
-	-moz-filter:grayscale(0%);
-	-ms-filter:grayscale(0%);
-	-o-filter:grayscale(0%);
-}
+/* Sitio */
+/* Agregue los estilos para cada seccion de la página */
+@import url('../css/sitio/header.css');
+@import url('../css/sitio/footer.css');
+@import url('../css/sitio/home.css');
 
-.logo__menu__header{
-	background: #0C0C0C;
-}
-.logo, .menu__header, .buscar{
-	margin-top: 25px;
-}
-.logo h1{
-	margin: 0px;
-	margin-left: 20px;
-}
-.menu__header{
-	text-align: center;
-	margin-top: 40px;
-}
-.menu__header li{
-	display: inline-block;
-}
-.menu__header li a{
-	text-decoration: none;
-	font-size: 14px;
-	color: #ffffff;
-	font-weight: 300;
-	padding: 0px 4px 0px 4px;
-}
-.menu__header li a:hover, .menu__header li a:active,.menu__header li a:focus{
-	border: 2px solid #ffffff;
-	padding: 0px 2px 0px 2px;
-}
-.buscar{
-	border-left: 1px solid #ffffff;
-}
-.buscar input[type="text"]{
-	margin-top: 5px;
-	margin-left: 10px;
-}
-.buscar input[type="text"]::-webkit-input-placeholder {
-	color: #686868;
-}
+@import url('../css/sitio/simplificado.css');
 
 
 
 
-/* Footer */
-footer{
-	background-color: #E2E2E2;
-	font-size: 12px;
-}
-.menu__footer{
-	text-align: center;
-}
-.menu__footer ul{
-	margin: 0px;
-	padding: 10px 0px;
-}
-.menu__footer ul li{
-	list-style: none;
-	display: inline-block;
-	margin: 0px;
-}
-.menu__footer ul li a{
-	text-decoration: none;
-	font-size: 12px;
-	font-weight: 700;
-	color: #656666;
-	padding: 0px 5px 0px 3px;
-}
-.menu__footer ul li:last-child:after{
-	content: none;
-}
-.footer__logos h3{
-	font-size: 16px;
-	color: #0C0C0C;
-	font-weight: 400;
-	letter-spacing: .2px;
-	margin-bottom: 0px;
-}
-.footer__logos{
-	background-color: #EDEDED;
-	text-align: center;
-	padding: 10px 0px;
-}
-.footer__logos ul li{
-	display: inline-block;
-	margin: 0px 20px;
-	vertical-align: middle;
-}
-.copyright{
-	
-}
-.copyright__contact ,.copyright__social{
-	display: inline-block;
-	padding: 10px 0px;
-	margin-bottom: 0px;
-}
-.copyright__contact li{
-	margin-right: 30px;
-	list-style: none;
-	display: inline-block;
-}
-.copyright__contact li p{
-	margin-bottom: 0px;
-	line-height: 16px;
-	font-size: 12px;
-	vertical-align: middle;
-	font-weight: 500;
-}
-.copyright__contact li img{
-	margin-right: 10px;
-}
-.copyright__contact li img, .copyright__contact li p{
-	display: inline-block;
-	vertical-align: middle;
-}
-.copyright__social{
-	margin-left: 20px;
-}
-.copyright__social li{
-	display: inline-block;
-	padding: 0px 5px;
-}
-.copyright__social li img{
-	vertical-align: bottom;
-}
-.text__copyright{
-	padding: 10px 0px;
-}
-
-.text__copyright p{
-	margin-bottom: 0px;
-	font-size: 10px;
-}
 
 
 
 
-/* Simplificados */
-.right{
-	text-align: right;
-}
-.center{
-	text-align: center;
-}

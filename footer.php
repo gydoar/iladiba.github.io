@@ -1,4 +1,3 @@
-
 <!-- Footer -->
 <footer>
 	<!-- Menu Footer -->
@@ -20,11 +19,11 @@
 	<div class="footer__logos">
 		<ul class="container">
 			<h3>Educación en Salud</h3>
-			<li><a href="#"><img width="112px" src="images/footer/logo_emsa.png" alt="Logo Emsa"></a></li>
-			<li><a href="#"><img width="70px" src="images/footer/logo_fun_iladiba.png" alt="Logo Fundación Iladiba"></a></li>
-			<li><a href="#"><img width="218px" src="images/footer/logo_iladiba.png" alt="Logo Iladiba"></a></li>
-			<li><a href="#"><img width="202px" src="images/footer/logo_cursos_iladiba.png" alt="Logo Cursos Iladiba"></a></li>
-			<li><a href="#"><img width="161px" src="images/footer/logo_salud_hoy.png" alt="Logo Salud Hoy"></a></li>
+			<li><a target="new" href="#"><img width="112px" src="images/footer/logo_emsa.png" alt="Logo Emsa"></a></li>
+			<li><a target="new" href="#"><img width="70px" src="images/footer/logo_fun_iladiba.png" alt="Logo Fundación Iladiba"></a></li>
+			<li><a target="new" href="#"><img width="218px" src="images/footer/logo_iladiba.png" alt="Logo Iladiba"></a></li>
+			<li><a target="new" href="#"><img width="202px" src="images/footer/logo_cursos_iladiba.png" alt="Logo Cursos Iladiba"></a></li>
+			<li><a target="new" href="#"><img width="161px" src="images/footer/logo_salud_hoy.png" alt="Logo Salud Hoy"></a></li>
 		</ul>
 	</div>
 
@@ -40,16 +39,16 @@
 					</li>
 					<li>
 						<img width="22px" src="images/footer/icon_tel.png" alt="Icon Tel">
-						<p>Calle 30A No. 6- 22<br>Bogotá, Colombia</p>
+						<p>+57 310 281 6466<br>+571 232 5817</p>
 					</li>
 				</ul>
 				
 				<!-- Iconos sociales copyright -->
 
 				<ul class="copyright__social">
-					<li><a href="#"><img widthn="12px" src="images/footer/icon_twitter.png" alt="Twitter"></a></li>
-					<li><a href="#"><img widthn="12px" src="images/footer/icon_facebook.png" alt="Facebook"></a></li>
-					<li><a href="#"><img widthn="12px" src="images/footer/icon_linkedin.png" alt="Linkeding"></a></li>
+					<li><a target="new" href="#"><img widthn="12px" src="images/footer/icon_twitter.png" alt="Twitter"></a></li>
+					<li><a target="new" href="#"><img widthn="12px" src="images/footer/icon_facebook.png" alt="Facebook"></a></li>
+					<li><a target="new" href="#"><img widthn="12px" src="images/footer/icon_linkedin.png" alt="Linkeding"></a></li>
 				</ul>
 			</div>
 
@@ -62,7 +61,7 @@
 					</div>
 
 					<div class="three columns">
-						<a href="#"><img width="171px" class="twelve columns" src="images/footer/logo_tekton.png" alt="Logo Tekton"></a>
+						<a target="new" href="#"><img width="171px" class="twelve columns" src="images/footer/logo_tekton.png" alt="Logo Tekton"></a>
 					</div>
 				</div>
 					
@@ -73,8 +72,16 @@
 </footer>
 
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
+<!-- Slider -->
+<script src="js/ideal-image-slider.js"></script>
+<script src="js/iis-captions.js"></script>
+
+<script>
+	var slider = new IdealImageSlider.Slider('#slider');
+	slider.addCaptions();
+	slider.start();
+</script>
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>
