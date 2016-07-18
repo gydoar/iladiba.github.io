@@ -16,8 +16,24 @@
 			</div>
 
 			<!-- Articulos del slideshow -->
-			<div class="four columns">
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae vel provident explicabo nulla eveniet dolorem deleniti maxime possimus natus nobis debitis iusto, facilis officiis illum architecto, voluptatem sapiente libero magnam.
+			<div class="four columns art__slide__home">
+				<div class="">
+					<ul>
+						<li><p>Guía de la American Gastronterological Association (AGA) sobre manejo…</p></li>
+						<a href="#">Ver más ></a>
+
+						<div class="puntos_suspensivos"></div>
+							
+						<li><p>Guía de la American Gastronterological Association (AGA) sobre manejo…</p></li>
+						<a href="#">Ver más ></a>
+
+						<div class="puntos_suspensivos"></div>
+
+						<li><p>Guía de la American Gastronterological Association (AGA) sobre manejo…</p></li>
+						<a href="#">Ver más ></a>
+
+					</ul>
+				</div>
 			</div>
 		</div>
 	</div>

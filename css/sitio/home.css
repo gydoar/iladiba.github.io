@@ -1,1 +1,37 @@
 /* Home */
+
+/* Home Slider */
+
+.art__slide__home{
+	width: 350px !important;
+	margin-left: 0%;
+	border: 1px solid #CECECE;
+	padding: 20px 10px 0px 20px;
+}
+.art__slide__home ul{
+	margin-bottom: 0px;
+}
+.art__slide__home li{
+	max-width: 70%;
+	margin-bottom: 8px;
+	font-weight: 700;
+}
+.art__slide__home p{
+	font-size: 13px;
+	line-height: 16px;
+	line-height: 12px;
+}
+.art__slide__home a{
+	max-width: 28%;
+	border: 1px solid #000000;
+	text-decoration: none;
+	font-size: 12px;
+	color: #000000;
+	padding: .5px 2px;
+	font-weight: 700;
+	float: right;
+}
+.art__slide__home li, .art__slide__home a{
+	display: inline-block;
+	vertical-align: top;
+} 
