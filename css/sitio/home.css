@@ -1,8 +1,14 @@
 /* Home */
+.home h3{
+	color: #4D5B6D;
+	font-size: 16px;
+	font-weight: 700;
+}
 
 /* Home Slider */
 
 .art__slide__home{
+	max-width: 100%;
 	width: 350px !important;
 	margin-left: 0%;
 	border: 1px solid #CECECE;
@@ -21,17 +27,58 @@
 	line-height: 16px;
 	line-height: 12px;
 }
-.art__slide__home a{
-	max-width: 28%;
-	border: 1px solid #000000;
-	text-decoration: none;
-	font-size: 12px;
-	color: #000000;
-	padding: .5px 2px;
-	font-weight: 700;
-	float: right;
-}
 .art__slide__home li, .art__slide__home a{
 	display: inline-block;
 	vertical-align: top;
 } 
+
+
+/* Lo mas destacado */
+.sector-2{
+	padding: 20px 0px;
+}
+.lo__mas__destacado h3{
+	max-width: 20%;
+	background: #ffffff;
+}
+.line__destacado__home{
+	margin: 0px;
+	top: -31px;
+	position: relative;
+	border-top: 2px solid #4D5B6D;
+	text-align: right;
+	z-index: -1;
+}
+.cajas__destacado{
+	margin-left: 20px;
+}
+.cajas__destacado a img{
+	max-width: 100%;
+}
+.cajas__destacado h2{
+	font-size: 13px;
+	text-align: justify;
+	letter-spacing: .1px;
+	margin-bottom: 10px;
+}
+
+.revista__home{
+	max-width: 100%;
+	background-color: #F9F9F9;
+	height: 100%;
+	text-align: center;
+	padding: 20px 10px;
+}
+.revista__home img{
+	margin-bottom: 10px;
+	max-width: 100%;
+}
+.revista__home h3{
+	color: #000000;
+	letter-spacing: .1px;
+}
+.revista__home span{
+	color: #828282;
+	font-weight: 500;
+	font-size: 14px;
+}

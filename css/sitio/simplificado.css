@@ -9,3 +9,26 @@
 	border-top: 1px dashed #000000;
 	margin-bottom: 20px;
 }
+
+/* Botones */
+a.boton_vermas{
+	max-width: 28%;
+	border: 1px solid #000000;
+	text-decoration: none;
+	font-size: 12px;
+	color: #000000;
+	padding: .5px 2px;
+	font-weight: 700;
+	float: right;
+}
+a.boton_2{
+	border: 1px solid #4D5B6D;
+	color: #4D5B6D;
+	font-size: 10px;
+}
+a.boton_3{
+	float: none;
+	text-align: center;
+	border: 1px solid #4D5B6D;
+	color: #4D5B6D;
+}
