@@ -37,6 +37,9 @@
 .sector-2{
 	padding: 20px 0px;
 }
+.sector-3{
+	padding: 0px 0px 20px 0px;
+}
 .lo__mas__destacado h3{
 	max-width: 20%;
 	background: #ffffff;
@@ -49,13 +52,13 @@
 	text-align: right;
 	z-index: -1;
 }
-.cajas__destacado{
+.cajas__destacado, .cajas__practica__home, .cajas__atencion__primaria{
 	margin-left: 20px;
 }
 .cajas__destacado a img{
 	max-width: 100%;
 }
-.cajas__destacado h2{
+.cajas__destacado h2, .cajas__practica__home h2, .cajas__atencion__primaria h2{
 	font-size: 13px;
 	text-align: justify;
 	letter-spacing: .1px;
@@ -81,4 +84,116 @@
 	color: #828282;
 	font-weight: 500;
 	font-size: 14px;
+}
+
+/* Practica Medica */
+.practica__medica h3{
+	max-width: 25%;
+	background: #ffffff;
+}
+.cajas__practica__home h4, .cajas__atencion__primaria h4{
+	background-color: #F2F0F0;
+	max-width: 100%;
+	text-align: center;
+	font-size: 14px;
+	font-weight: 500;
+	color: #4D5B6D;
+	padding: 10px 10px;
+}
+.cajas__practica__home .puntos_suspensivos{
+	margin-top: 10px;
+}
+
+/** Recomendados del editor **/
+.recomendados__editor__home{
+	margin-top: 10px;
+}
+.recomendados__editor__home h4 {
+	max-width: 100%;
+	background-color: #4D5B6D;
+	text-align: center;
+	margin-bottom: 0px;
+	padding: 3px;
+}
+.recomendados__editor__home h4 a{
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: .1px;
+	top: -5px;
+	position: relative;
+}
+.recomendados__editor__home h2{
+	margin-bottom: 0px;
+	line-height: 20px;
+}
+.recomendados__editor__home h2 a{
+	font-size: 12px;
+	text-decoration: none;
+	color: #0C0C0C;
+	letter-spacing: .1px;
+}
+.recomendados__editor__home p, .cajas__atencion__primaria p{
+	font-size: 12px;
+	color: #545353;
+	line-height: 16px;
+	margin-bottom:10px;
+}
+.recomendados__editor__home .puntos_suspensivos{
+	margin-bottom: 0px;
+}
+
+/* Atencion primaria */
+.atencion__primaria h3{
+	max-width: 30%;
+	background: #ffffff;
+}
+.cajas__atencion__primaria h2{
+	font-weight: 500;
+}
+.cajas__atencion__primaria h2 a{
+	text-decoration: none;
+	color: #0C0C0C;
+}
+.cajas__atencion__primaria img{
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+.cajas__atencion__primaria p{
+	margin-bottom: 20px;
+}
+
+/* Especiales ILADIBA */
+.especiales_iladiba{
+	margin-top: 10px;
+}
+.especiales_iladiba h4 {
+	max-width: 100%;
+	background-color: #9B052C;
+	text-align: center;
+	margin-bottom: 0px;
+	padding: 3px;
+}
+.especiales_iladiba h4 a{
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: .1px;
+	top: -5px;
+	position: relative;
+}
+
+
+.flex-caption {
+  width: 96%;
+  padding: 2%;
+  left: 0;
+  bottom: 0;
+  background: rgba(0,0,0,.5);
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0,0,0,.3);
+  font-size: 14px;
+  line-height: 18px;
 }

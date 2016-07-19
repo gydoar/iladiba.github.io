@@ -71,7 +71,8 @@
 	</div>
 </footer>
 
-
+<!-- jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
 
 <!-- Slider -->
 <script src="js/ideal-image-slider.js"></script>
@@ -82,6 +83,24 @@
 	slider.addCaptions();
 	slider.start();
 </script>
+
+
+<script src="js/jquery.flexslider.js"></script>
+
+<script type="text/javascript">
+    $(function(){
+      SyntaxHighlighter.all();
+    });
+    $(window).load(function(){
+      $('.flexslider').flexslider({
+        animation: "slide",
+        controlNav: false,
+        start: function(slider){
+          $('body').removeClass('loading');
+        }
+      });
+    });
+  </script>
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>
