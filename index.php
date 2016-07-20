@@ -192,20 +192,13 @@
 					<div class="flexslider">
 					  <ul class="slides">
 					    <li>
-						  <strong>Dosificación de medicamentos pediátricos orales debe ser en sistema métrico…</strong>
-					      <p>Adventurer Cheesecake Brownie</p>
+					      <p><strong>Dosificación de medicamentos pediátricos orales debe ser en sistema métrico…</strong><br><br>El Comité de Servicios Preventivos de Estados Unidos (USPSTF sigla de United States Preventive Services Task Force) emitió una actualización de su guía de tamización para diabetes...</p>
 					    </li>
 					    <li>
-					     
-					      <p class="flex-caption">Adventurer Lemon</p>
+					      <p><strong>Dosificación de medicamentos pediátricos orales debe ser en sistema métrico…</strong><br><br>El Comité de Servicios Preventivos de Estados Unidos (USPSTF sigla de United States Preventive Services Task Force) emitió una actualización de su guía de tamización para diabetes...</p>
 					    </li>
 					    <li>
-					      
-					      <p class="flex-caption">Adventurer Donut</p>
-					    </li>
-					    <li>
-					      
-					      <p class="flex-caption">Adventurer Caramel</p>
+					      <p><strong>Dosificación de medicamentos pediátricos orales debe ser en sistema métrico…</strong><br><br>El Comité de Servicios Preventivos de Estados Unidos (USPSTF sigla de United States Preventive Services Task Force) emitió una actualización de su guía de tamización para diabetes...</p>
 					    </li>
 					  </ul>
 					</div>
