@@ -78,7 +78,7 @@
           <nav class="six columns menu__header">
             <ul>
               <li><a href="#">De Interés</a></li>
-              <li><a href="#">Práctica Clínica</a></li>
+              <li><a href="#">Práctica Médica</a></li>
               <li><a href="#">Atención Primaria</a></li>
               <li><a href="#">Revista</a></li>
               <li><a href="#">Cursos</a></li>

@@ -5,6 +5,9 @@
 .center{
 	text-align: center;
 }
+.left{
+	padding-left: 20px;
+}
 .puntos_suspensivos{
 	border-top: 1px dashed #000000;
 	margin-bottom: 20px;

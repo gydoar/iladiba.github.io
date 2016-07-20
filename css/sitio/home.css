@@ -40,6 +40,9 @@
 .sector-3{
 	padding: 0px 0px 20px 0px;
 }
+.sector-5{
+	padding: 20px 0px;
+}
 .lo__mas__destacado h3{
 	max-width: 20%;
 	background: #ffffff;
@@ -134,7 +137,7 @@
 	color: #0C0C0C;
 	letter-spacing: .1px;
 }
-.recomendados__editor__home p, .cajas__atencion__primaria p{
+.recomendados__editor__home p, .cajas__atencion__primaria p, .nuestros__portales p{
 	font-size: 12px;
 	color: #545353;
 	line-height: 16px;
@@ -275,3 +278,74 @@
 	font-weight: 700;
 }
 
+
+/* Nuestros portales */
+.nuestros__portales h3{
+	max-width: 25%;
+	background: #ffffff;
+}
+
+.nuestros__portales h4{
+	background-color: #F2F0F0;
+	max-width: 200px;
+	text-align: center;
+	font-size: 14px;
+	font-weight: 500;
+	color: #4D5B6D;
+	padding: 10px 10px;
+	margin-bottom: 10px;
+}
+.nuestros__portales h2{
+	line-height: 12px;
+	margin-bottom: 10px;
+}
+.nuestros__portales h2 a{
+	text-decoration: none;
+	color: #0C0C0C;
+	font-size: 14px;
+	font-weight: 500;
+}
+.nuestros__portales .puntos_suspensivos{
+	margin-top: 10px;
+}
+
+/** Banner sidebar y Newsletter **/
+.banner__sidebar img{
+	max-width: 100%;
+	margin-top: 10px;
+}
+
+.newsletter{
+	margin-top: 10px;
+}
+.newsletter h4 {
+	max-width: 100%;
+	background-color: #0068A3;
+	text-align: center;
+	margin-bottom: 0px;
+	padding: 3px;
+}
+.newsletter h4 a{
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: .1px;
+	top: -5px;
+	position: relative;
+}
+.newsletter input[type="text"]{
+	border: none;
+	width: 100%;
+	max-width: 100%;
+	height: 34px;
+}
+.newsletter p{
+	margin-bottom: 0px;
+	font-size: 12px;
+	color: #4D5B6D;
+	padding: 5px 0px;
+}
+.newsletter .bg-gray{
+	padding: 0px 10px 30px 10px;
+}

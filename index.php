@@ -234,11 +234,13 @@
 									<li><a href="#">J</a></li>
 									<li><a href="#">K</a></li>
 									<li><a href="#">L</a></li>
+									<li><a href="#">M</a></li>
 								</ul>
 								<ul>
-									<li><a href="#">M</a></li>
+				
 									<li><a href="#">N</a></li>
 									<li><a href="#">O</a></li>
+									<li><a href="#">P</a></li>
 									<li><a href="#">Q</a></li>
 									<li><a href="#">R</a></li>
 									<li><a href="#">S</a></li>
@@ -256,7 +258,53 @@
 				</div>
 			</div>
 		</div>
+		
+		<!-- Nuestros Portales -->
+		<div class="container sector-5">
+			<div class="row">
+				<!-- Nuestros portales -->
+				<div class="eight columns nuestros__portales">
+					<h3>NUESTROS PORTALES</h3> <div class="line__destacado__home"></div>
+					<div class="left">
+						<h4>Hoy en cursos ILADIBA</h4>
+						<h2><a href="#">Actualización en cirugía de la obesidad (cirugía bariátrica)</a></h2>
+						<p>En líneas generales puede decirse que la cirugía de la obesidad y procedimientos invasivos. El Comité de Servicios Preventivos de Estados Unidos (USPSTF sigla de United States Preventive Services Task Force) emitió una actualización de su guía de tamización para diabetes...</p>
+						<a class="boton_vermas boton_2" href="#">Ver más ></a><br>
+						<div class="puntos_suspensivos"></div>
+						
+						<!-- Salud Hoy -->
+						<h4>Hoy en SALUD HOY</h4>
+						<h2><a href="#">Actualización en cirugía de la obesidad (cirugía bariátrica)</a></h2>
+						<p>En líneas generales puede decirse que la cirugía de la obesidad y procedimientos invasivos. El Comité de Servicios Preventivos de Estados Unidos (USPSTF sigla de United States Preventive Services Task Force) emitió una actualización de su guía de tamización para diabetes...</p>
+						<a class="boton_vermas boton_2" href="#">Ver más ></a><br><br>
+					</div>
+				</div>
 
+				<!-- Banner IAB y Newsletter -->
+				<div class="four columns banner__sidebar">
+					<div class="center">
+						<a href="#"><img src="images/home/banner_300x250.png" alt=""></a>
+					</div>
+					
+					
+					<!-- Newsletter sidebar home -->
+					<div class="twelve columns newsletter">
+						<h4><a href="#">Regístrese al Newsletter ILADIBA</a></h4>
+						<div class="bg-gray center">
+							<p><span>Para enterarse de las noticias más relevantes de Salud</span></p>
+							<input type="text" placeholder="Correo electrónico"><br>
+							<a class="boton_vermas boton_2" href="#">Regístrese ></a>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+
+		<!-- Banner publicitario Footer Home 728 x 90-->
+		<div class="container center banner__home__728">
+			<a href="#"><img width="728px" src="images/home/banner_728x90.png" alt=""></a>
+		</div>
 	</div>
 
 <!-- Footer principal -->
