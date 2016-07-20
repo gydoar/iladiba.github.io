@@ -73,9 +73,9 @@ html[xmlns] .flexslider .slides {
  * DEFAULT THEME
  * ====================================================================================================================*/
 .flexslider {
-  margin: 0 0 60px;
+  margin: 0 0 10px;
   background: #F2F2F2;
-  padding: 20px 50px;
+  padding: 20px 50px 5px 50px;
   position: relative;
   zoom: 1;
   -webkit-border-radius: 4px;
@@ -138,12 +138,12 @@ html[xmlns] .flexslider .slides {
   font-family: "flexslider-icon";
   font-size: 40px;
   display: inline-block;
-  content: url('icon-prev.png');
+  content: url('../../images/home/icon-prev.png');
   color: rgba(0, 0, 0, 0.8);
   text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.3);
 }
 .flex-direction-nav a.flex-next:before {
-  content: url('icon-next.png');
+  content: url('../../images/home/icon-next.png');
 }
 .flex-direction-nav .flex-prev {
   left: -50px;

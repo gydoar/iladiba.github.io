@@ -193,14 +193,65 @@
 					  <ul class="slides">
 					    <li>
 					      <p><strong>Dosificación de medicamentos pediátricos orales debe ser en sistema métrico…</strong><br><br>El Comité de Servicios Preventivos de Estados Unidos (USPSTF sigla de United States Preventive Services Task Force) emitió una actualización de su guía de tamización para diabetes...</p>
+					      <a class="boton_vermas boton_2" href="#">Ver más ></a><br>
 					    </li>
 					    <li>
 					      <p><strong>Dosificación de medicamentos pediátricos orales debe ser en sistema métrico…</strong><br><br>El Comité de Servicios Preventivos de Estados Unidos (USPSTF sigla de United States Preventive Services Task Force) emitió una actualización de su guía de tamización para diabetes...</p>
+					      <a class="boton_vermas boton_2" href="#">Ver más ></a><br>
 					    </li>
 					    <li>
 					      <p><strong>Dosificación de medicamentos pediátricos orales debe ser en sistema métrico…</strong><br><br>El Comité de Servicios Preventivos de Estados Unidos (USPSTF sigla de United States Preventive Services Task Force) emitió una actualización de su guía de tamización para diabetes...</p>
+					      <a class="boton_vermas boton_2" href="#">Ver más ></a><br>
 					    </li>
 					  </ul>
+					</div>
+
+					<!-- De interés Sidebar-->
+					<div class="twelve columns de__interes__sidebar__home">
+						<h4><a href="#">De Interés</a></h4>
+						<div class="width-80">
+							<h2><a href="#">Actualización en cirugía de la obesidad (cirugía bariátrica)...</a></h2>
+							<a href="#"><img class="twelve columns" src="images/home/de-interes-sidebar.png" alt=""></a>
+							<a class="boton_vermas boton_2" href="#">Ver más ></a><br>
+						</div>
+					</div>
+
+					<!-- Salud de la A a la Z Sidebar -->
+					<div class="twelve columns salud__a__z">
+						<h4><a href="#">Salud de la A a la Z</a></h4>
+						<div class="bg-gray">
+							<div class="width-90">
+								<ul>
+									<li><a href="#">A</a></li>
+									<li><a href="#">B</a></li>
+									<li><a href="#">C</a></li>
+									<li><a href="#">D</a></li>
+									<li><a href="#">E</a></li>
+									<li><a href="#">F</a></li>
+									<li><a href="#">G</a></li>
+									<li><a href="#">H</a></li>
+									<li><a href="#">I</a></li>
+									<li><a href="#">J</a></li>
+									<li><a href="#">K</a></li>
+									<li><a href="#">L</a></li>
+								</ul>
+								<ul>
+									<li><a href="#">M</a></li>
+									<li><a href="#">N</a></li>
+									<li><a href="#">O</a></li>
+									<li><a href="#">Q</a></li>
+									<li><a href="#">R</a></li>
+									<li><a href="#">S</a></li>
+									<li><a href="#">T</a></li>
+									<li><a href="#">U</a></li>
+									<li><a href="#">V</a></li>
+									<li><a href="#">W</a></li>
+									<li><a href="#">X</a></li>
+									<li><a href="#">Y</a></li>
+									<li><a href="#">Z</a></li>
+								</ul>
+							</div>
+						</div>							
 					</div>
 				</div>
 			</div>

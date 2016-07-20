@@ -35,3 +35,17 @@ a.boton_3{
 .font-weight-300{
 	font-weight: 300 !important;
 }
+.width-80{
+	width: 80%;
+	max-width: 100%;
+	margin: 0 auto;
+}
+.width-90{
+	width: 90%;
+	max-width: 100%;
+	margin: 0 auto;
+}
+.bg-gray{
+	background-color: #F2F0F0;
+	padding: 1px 0px 10px 0px;
+}

@@ -85,6 +85,7 @@
 </script>
 
 
+<!-- Flex Slider -->
 <script src="js/jquery.flexslider.js"></script>
 
 <script type="text/javascript">
@@ -95,6 +96,7 @@
       $('.flexslider').flexslider({
         animation: "slide",
         controlNav: false,
+        autoPlay: true,
         start: function(slider){
           $('body').removeClass('loading');
         }
