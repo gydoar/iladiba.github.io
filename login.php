@@ -49,8 +49,5 @@
 	</div>
 
 
-
-
-
 <!-- Footer principal -->
 <?php include("footer.php"); ?>
