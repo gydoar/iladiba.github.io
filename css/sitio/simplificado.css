@@ -52,3 +52,15 @@ a.boton_3{
 	background-color: #F2F0F0;
 	padding: 1px 0px 10px 0px;
 }
+
+/** Miga de pan **/
+.miga__de__pan {
+	color: #B60229;
+	font-size: 12px;
+}
+.miga__de__pan a{
+	text-decoration: none;
+	color: #B60229;
+}
+.miga__de__pan a:hover{
+	text-decoration: underline;
