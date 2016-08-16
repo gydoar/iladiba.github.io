@@ -261,23 +261,22 @@
 	margin-bottom: 10px;
 }
 .salud__a__z ul li{
-	padding: 0px 2px;
 	display: inline-block;
 	border-radius: 15px;
-	border: 2px solid #F2F0F0;
-	height: 25px;
-	width: 16px;
+	border: 3px solid #F2F0F0;
+	height: 18px;
+	width: 18px;
+	line-height: normal
 }
 .salud__a__z ul li:hover{
-	border: 2px solid #0C0C0C;
-	padding: 0px 2px;
+	border: 3px solid #0C0C0C;
+	border-radius: 15px;
 }
 .salud__a__z ul li a{
 	color: #0C0C0C;
 	text-decoration: none;
 	font-weight: 700;
 }
-
 
 /* Nuestros portales */
 .nuestros__portales h3{
@@ -310,6 +309,9 @@
 }
 
 /** Banner sidebar y Newsletter **/
+.banner__sidebar{
+	text-align: center;
+}
 .banner__sidebar img{
 	max-width: 100%;
 	margin-top: 10px;

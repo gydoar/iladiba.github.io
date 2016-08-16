@@ -282,12 +282,12 @@
 				<!-- Banner IAB y Newsletter -->
 				<div class="four columns banner__sidebar">
 					<div class="center">
-						<a href="#"><img src="images/home/banner_300x250.png" alt=""></a>
+						<a href="#"><img class="twelve columns" src="images/home/banner_300x250.png" alt=""></a>
 					</div>
 					
 					
 					<!-- Newsletter sidebar home -->
-					<div class="twelve columns newsletter">
+					<div class="twelve columns newsletter center">
 						<h4><a href="#">Regístrese al Newsletter ILADIBA</a></h4>
 						<div class="bg-gray center">
 							<p><span>Para enterarse de las noticias más relevantes de Salud</span></p>

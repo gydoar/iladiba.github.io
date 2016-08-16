@@ -49,6 +49,7 @@ footer{
 	display: inline-block;
 	padding: 10px 0px;
 	margin-bottom: 0px;
+	vertical-align: bottom;
 }
 .copyright__contact li{
 	margin-right: 30px;

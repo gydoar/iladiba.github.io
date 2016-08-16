@@ -44,7 +44,7 @@
     <header>
       <div class="container">
         <!-- Menu top header -->
-        <section class="right">
+        <section class="right__menu__top__header">
           <ul class="menu__top__header">
             <li><a href="#">Acerca de ILADIBA</a></li>
             <li><a href="#">Newsletter ILADIBA</a></li>
@@ -88,6 +88,7 @@
           
           <!-- Buscador -->
           <div class="three columns buscar">
+            <div class="line__left__buscar"></div>
             <input class="twelve columns" type="text" placeholder="Buscar tema de interés">
           </div>
         </div>

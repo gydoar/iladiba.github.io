@@ -2,6 +2,7 @@
 /* Agregue aquí librerias adicionales que desea utiliza */
 @import url('../css/librerias/normalize.css');
 @import url('../css/librerias/skeleton.css');
+@import url('../css/librerias/media-query.css');  /* Media query */
 @import url('../css/librerias/ideal-image-slider.css'); /* Slider */
 @import url('../css/librerias/theme-image-slider.css'); /* Theme Slider */
 @import url('../css/librerias/flexslider.css'); /* Flexslider */

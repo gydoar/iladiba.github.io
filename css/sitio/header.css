@@ -78,12 +78,17 @@ header{
 	border: 2px solid #ffffff;
 	padding: 0px 1px 0px 1px;
 }
-.buscar{
-	border-left: 1px solid #ffffff;
+
+.line__left__buscar{
+	background-image: url(line__left__buscar.png);
+	position: absolute;
 }
 .buscar input[type="text"]{
 	margin-top: 5px;
 	margin-left: 10px;
+	background: url("../../images/header/icon_buscar.png") no-repeat scroll 0 0 #ffffff;
+    border: 1px solid #BFBFBF;
+    background-position: 186px 1px
 }
 .buscar input[type="text"]::-webkit-input-placeholder {
 	color: #686868;
