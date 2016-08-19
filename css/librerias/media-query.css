@@ -7,3 +7,29 @@ on small devices, paste the mobile query code up in the buttons section and styl
 there.
 */
 
+/*------------------------------------*\
+    $MEDIA-QUERIES
+\*------------------------------------*/
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+		.right, .right__menu__top__header{
+			text-align: center !important;
+		}
+	}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+		.right, .right__menu__top__header{
+			text-align: center !important;
+		}
+	}

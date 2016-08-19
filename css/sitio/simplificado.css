@@ -18,7 +18,7 @@ a.boton_vermas{
 	max-width: 28%;
 	border: 1px solid #000000;
 	text-decoration: none;
-	font-size: 12px;
+	font-size: 10px;
 	color: #000000;
 	padding: .5px 2px;
 	font-weight: 700;
@@ -61,6 +61,7 @@ a.boton_3{
 .miga__de__pan a{
 	text-decoration: none;
 	color: #B60229;
+	font-weight: 300;
 }
 .miga__de__pan a:hover{
 	text-decoration: underline;

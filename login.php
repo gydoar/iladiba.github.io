@@ -40,7 +40,7 @@
 								<li>Tener acceso a todos los artículos del Portal.</li>
 								<li>Poder descargar la revista ILADIBA.</li>
 								<li>Obtener la última información sintetizada sobre temas de interés en el área de la salud.</li>
-								<li>Recibir el newletter ILADIBA en su correo electrónico.</li>
+								<li>Recibir el newsletter ILADIBA en su correo electrónico.</li>
 							</ul>
 						</div>
 					</div>

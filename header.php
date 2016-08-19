@@ -31,12 +31,22 @@
 <body>
   
   <div class="container">
+
+    <?php $url_actual = "http://" . $_SERVER["SERVER_NAME"] . $_SERVER["REQUEST_URI"]; ?>
     
     <!-- Banner Desplegable Home Header 1200 x 60-->
     <!-- Se mostrara solo si esta en el Home-->
-    <div class="banner__home__header">
-      <a href="#"><img class="twelve columns" src="images/header/ads-header-small.png" alt="ads-header-small"></a>
-    </div>
+    <?php if ($url_actual == 'http://localhost/maldonado/iladiba/') { ?>
+
+          <div class="banner__home__header">
+            <a href="#"><img class="twelve columns" src="images/header/ads-header-small.png" alt="ads-header-small"></a>
+          </div> 
+
+    <?php }else{ ?>
+        
+
+    <?php } ?>
+    
 
   </div>
   
@@ -75,7 +85,7 @@
           </div>
           
           <!-- Menu principal -->
-          <nav class="six columns menu__header">
+          <nav class="seven columns menu__header">
             <ul>
               <li><a href="#">De Interés</a></li>
               <li><a href="#">Práctica Médica</a></li>
@@ -85,9 +95,11 @@
               <li><a href="#">Salud A - Z</a></li>
             </ul>
           </nav>
+
           
+
           <!-- Buscador -->
-          <div class="three columns buscar">
+          <div class="two columns buscar">
             <div class="line__left__buscar"></div>
             <input class="twelve columns" type="text" placeholder="Buscar tema de interés">
           </div>

@@ -8,7 +8,28 @@
 		<div class="container">
 			<div class="row">
 				<!-- Slideshow -->
-				<div class="eight columns">
+				<div class="slider-width">
+
+					<!--
+						<div class="flexslider">
+						  <ul class="slides">
+						    <li>
+						      <img width="600px" src="images/home/slider/slide1.jpg" />
+						      <div class="flex-caption">
+						      	<div class="title__slider">
+						      		<span>Abril 25 2016</span>
+						      		<h2>FDA alerta sobre arritmias con azitromicina</h2>
+						      	</div>
+						      	<div class="boton__slider">
+						      		<a class="boton_vermas" href="#">Ver más ></a>
+						      	</div>
+						      	
+						      </div>
+						    </li>
+						  </ul>
+						</div>
+					-->
+					
 					<div id="slider">
 						 <a href="#"><img src="images/home/slider/slide1.jpg" data-src-2x="images/home/slider/slide1.png" title="Abril 25 2016" alt="FDA alerta sobre arritmias con azitromicina" /></a>
 
@@ -16,10 +37,11 @@
 
 						<img src="images/home/slider/slide1.jpg" data-src-2x="images/home/slider/slide1.png" title="Abril 25 2016" alt="FDA alerta sobre arritmias con azitromicina" />
 					</div>
+
 				</div>
 
 				<!-- Articulos del slideshow -->
-				<div class="four columns art__slide__home">
+				<div class="art-width art__slide__home">
 					<div class="">
 						<ul>
 							<li><p>Guía de la American Gastronterological Association (AGA) sobre manejo…</p></li>

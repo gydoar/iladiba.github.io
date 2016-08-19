@@ -20,7 +20,7 @@ footer{
 	font-size: 12px;
 	font-weight: 700;
 	color: #656666;
-	padding: 0px 5px 0px 3px;
+	padding: 0px 6px;
 }
 .menu__footer ul li:last-child:after{
 	content: none;
@@ -39,7 +39,7 @@ footer{
 }
 .footer__logos ul li{
 	display: inline-block;
-	margin: 0px 20px;
+	padding: 0px 23px;
 	vertical-align: middle;
 }
 .copyright{

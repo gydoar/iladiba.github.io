@@ -92,6 +92,7 @@
     $(function(){
       SyntaxHighlighter.all();
     });
+
     $(window).load(function(){
       $('.flexslider').flexslider({
         animation: "slide",
@@ -102,6 +103,13 @@
         }
       });
     });
+
+    // Can also be used with $(document).ready()
+	$(window).load(function() {
+	  $('.flexslider-caption').flexslider({
+	    animation: "slide"
+	  });
+	});
   </script>
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->

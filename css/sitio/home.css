@@ -1,7 +1,7 @@
 /* Home */
 .home h3, .content__login h3, .content__suscribase h3{
 	color: #4D5B6D;
-	font-size: 16px;
+	font-size: 18px;
 	font-weight: 700;
 }
 
@@ -9,7 +9,9 @@
 
 .art__slide__home{
 	max-width: 100%;
-	width: 350px !important;
+	width: 267px !important;
+	height: 271px;
+	position: relative;
 	margin-left: 0%;
 	border: 1px solid #CECECE;
 	padding: 20px 10px 0px 20px;
@@ -23,9 +25,10 @@
 	font-weight: 700;
 }
 .art__slide__home p{
-	font-size: 13px;
+	font-size: 14px;
 	line-height: 16px;
 	line-height: 12px;
+	font-weight: 500;
 }
 .art__slide__home li, .art__slide__home a{
 	display: inline-block;
@@ -44,7 +47,7 @@
 	padding: 20px 0px;
 }
 .lo__mas__destacado h3{
-	max-width: 20%;
+	max-width: 25%;
 	background: #ffffff;
 }
 .line__destacado__home{
@@ -62,7 +65,7 @@
 	max-width: 100%;
 }
 .cajas__destacado h2, .cajas__practica__home h2, .cajas__atencion__primaria h2{
-	font-size: 13px;
+	font-size: 14px;
 	text-align: justify;
 	letter-spacing: .1px;
 	margin-bottom: 10px;
@@ -74,6 +77,7 @@
 	height: 100%;
 	text-align: center;
 	padding: 20px 10px;
+	margin-top: 12px;
 }
 .revista__home img{
 	margin-bottom: 10px;
@@ -98,10 +102,10 @@
 	background-color: #F2F0F0;
 	max-width: 100%;
 	text-align: center;
-	font-size: 14px;
+	font-size: 16px;
 	font-weight: 500;
 	color: #4D5B6D;
-	padding: 10px 10px;
+	padding: 15px 10px;
 }
 .cajas__practica__home .puntos_suspensivos{
 	margin-top: 10px;
@@ -121,7 +125,7 @@
 .recomendados__editor__home h4 a{
 	text-decoration: none;
 	color: #ffffff;
-	font-size: 14px;
+	font-size: 18px;
 	font-weight: 400;
 	letter-spacing: .1px;
 	top: -5px;
@@ -132,13 +136,13 @@
 	line-height: 20px;
 }
 .recomendados__editor__home h2 a{
-	font-size: 12px;
+	font-size: 14px;
 	text-decoration: none;
 	color: #0C0C0C;
 	letter-spacing: .1px;
 }
 .recomendados__editor__home p, .cajas__atencion__primaria p, .nuestros__portales p{
-	font-size: 12px;
+	font-size: 14px;
 	color: #545353;
 	line-height: 16px;
 	margin-bottom:10px;
@@ -181,7 +185,7 @@
 .especiales_iladiba h4 a{
 	text-decoration: none;
 	color: #ffffff;
-	font-size: 14px;
+	font-size: 18px;
 	font-weight: 400;
 	letter-spacing: .1px;
 	top: -5px;
@@ -192,6 +196,7 @@
 /* FlexSlider */
 .flex-caption {
   width: 96%;
+  max-width: 100%;
   padding: 2%;
   left: 0;
   bottom: 0;
@@ -201,7 +206,6 @@
   font-size: 14px;
   line-height: 18px;
 }
-
 /* De Interés Sidebar */
 
 .de__interes__sidebar__home h4 {
@@ -214,7 +218,7 @@
 .de__interes__sidebar__home h4 a{
 	text-decoration: none;
 	color: #ffffff;
-	font-size: 14px;
+	font-size: 18px;
 	font-weight: 400;
 	letter-spacing: .1px;
 	top: -5px;
@@ -249,7 +253,7 @@
 .salud__a__z h4 a{
 	text-decoration: none;
 	color: #ffffff;
-	font-size: 14px;
+	font-size: 18px;
 	font-weight: 400;
 	letter-spacing: .1px;
 	top: -5px;
@@ -280,7 +284,7 @@
 
 /* Nuestros portales */
 .nuestros__portales h3{
-	max-width: 25%;
+	max-width: 30%;
 	background: #ffffff;
 }
 
@@ -357,4 +361,49 @@
 }
 .banner__home__728 img{
 	max-width: 100%;
+}
+.slider-width{
+	width: 70%
+}
+.art-width{
+	width: 20%;
+}
+.slider-width, .art-width{
+	display: inline-block;
+	vertical-align: top;
+}
+.slider-width .flex-caption{
+	background: rgba(255,255,255,.5);
+	color: #0C0C0C;
+	padding: 10px 60px;
+	width: 96%;
+  max-width: 100%;
+  padding: 2%;
+  left: 0;
+  bottom: 0;
+  background: rgba(255,255,255,.5);
+  line-height: 18px;
+  position: relative;
+  top: -96px;
+  margin-bottom: -60px;
+}
+.slider-width .flex-caption span{
+	font-size: 14.35px;
+	font-weight: 500;
+}
+.slider-width .flex-caption h2{
+	font-size: 24px;
+	font-weight: 500;
+	margin-bottom: 0px;
+}
+.title__slider{
+	width: 50%;
+	padding: 0px 20px;
+}
+.boton__slider{
+	width: 18%;
+}
+.title__slider, .boton__slider{
+	vertical-align: middle;
+	display: inline-block;
 }

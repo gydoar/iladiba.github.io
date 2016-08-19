@@ -8,6 +8,7 @@
 .content__login h3{
 	max-width: 25%;
 	background: #ffffff;
+	font-size: 18px;
 }
 .content__login h4{
 	color: #4D5B6D;
@@ -19,12 +20,13 @@
 .content__login span, .content__suscribase span{
 	color: #B60229;
 	font-size: 12px;
+	font-weight: 300;
 }
 .content__login label, .content__suscribase label{
 	margin-top: 10px;
 	margin-bottom: 0px;
-	font-weight: 400;
-	font-size: 12px;
+	font-weight: 300;
+	font-size: 14px;
 	color: #000000;
 }
 .content__login input[type="text"]{
@@ -52,8 +54,8 @@
 	  padding: 0 10px;
 	  color: #4D5B6D;
 	  text-align: center;
-	  font-size: 11px;
-	  font-weight: 600;
+	  font-size: 13.48px;
+	  font-weight: 700;
 	  line-height: 22px;
 	  letter-spacing: .1rem;
 	  text-transform: uppercase;
@@ -88,7 +90,7 @@
 	font-size: 18px;
 }
 .content__suscribase input[type="text"], .content__suscribase select{
-	height: 28px;
+	height: 32px;
 	width: 100%;
 	max-width: 100%;
 	margin-bottom: 0px;
@@ -99,9 +101,9 @@
 	margin-top: 20px;
 }
 .check__condiciones{
-	font-size: 13px;
+	font-size: 12px;
 	text-align: center;
-	font-weight: 400;
+	font-weight: 300;
 }
 .check__condiciones a{
 	color: #B60229;
