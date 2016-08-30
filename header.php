@@ -46,7 +46,11 @@
         
 
     <?php } ?>
-    
+
+
+    <div class="twelve columns ads__header_phone center">
+      <a href="#"><img width="320px" src="images/header/ads_header_phone.png" alt="ads-header-small"></a>
+    </div>
 
   </div>
   

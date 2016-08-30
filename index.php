@@ -8,7 +8,7 @@
 		<div class="container">
 			<div class="row">
 				<!-- Slideshow -->
-				<div class="slider-width">
+				<div class="seven columns">
 
 					<!--
 						<div class="flexslider">
@@ -41,7 +41,7 @@
 				</div>
 
 				<!-- Articulos del slideshow -->
-				<div class="art-width art__slide__home">
+				<div class="five columns art__slide__home">
 					<div class="">
 						<ul>
 							<li><p>Guía de la American Gastronterological Association (AGA) sobre manejo…</p></li>
@@ -231,10 +231,16 @@
 					<!-- De interés Sidebar-->
 					<div class="twelve columns de__interes__sidebar__home">
 						<h4><a href="#">De Interés</a></h4>
-						<div class="width-80">
-							<h2><a href="#">Actualización en cirugía de la obesidad (cirugía bariátrica)...</a></h2>
+						<div class="">
+							<h2><a href="#">Actualización en cirugía de la obesidad (cirugía bariátrica)...</a></h2> <br>
+
+							<iframe class="twelve columns" height="315" src="https://www.youtube.com/embed/MoxUDD-WDdw" frameborder="0" allowfullscreen></iframe>
+							
+							<!--
 							<a href="#"><img class="twelve columns" src="images/home/de-interes-sidebar.png" alt=""></a>
-							<a class="boton_vermas boton_2" href="#">Ver más ></a><br>
+							
+							<a class="boton_vermas boton_2" href="#">Ver más ></a>
+							-->
 						</div>
 					</div>
 

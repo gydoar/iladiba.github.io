@@ -121,7 +121,7 @@
 
 					<div class="check__condiciones center">
 						<input type="checkbox" name="politicas" value="politicas"> Acepto que estoy de acuerdo con los <a target="new" href="#">términos de uso y  políticas privacidad.</a><br>
-						<input type="submit" value="Regístrarse >">
+						<input type="submit" value="Registrarse >">
 					</div>
 				</form>
 			</div>

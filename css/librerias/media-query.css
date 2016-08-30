@@ -11,11 +11,28 @@ there.
     $MEDIA-QUERIES
 \*------------------------------------*/
 
+	@media only screen and (min-width: 960px) {
+		.ads__header_phone{
+			display: none;
+			max-width: 100%;
+		}
+	}
+
 	/* Smaller than standard 960 (devices and browsers) */
-	@media only screen and (max-width: 959px) {}
+	@media only screen and (max-width: 959px) {
+		.ads__header_phone{
+			display: none;
+			max-width: 100%;
+		}
+	}
 
 	/* Tablet Portrait size to standard 960 (devices and browsers) */
-	@media only screen and (min-width: 768px) and (max-width: 959px) {}
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+		.ads__header_phone{
+			display: none;
+			max-width: 100%;
+		}
+	}
 
 	/* All Mobile Sizes (devices and browser) */
 	@media only screen and (max-width: 767px) {}
@@ -25,11 +42,53 @@ there.
 		.right, .right__menu__top__header{
 			text-align: center !important;
 		}
+		.banner__home__header{
+			display: none;
+		}
+		.ads__header_phone{
+			display: inline-block;
+		}
+		.ads__header_phone img{
+			text-align: center;
+		}
+
 	}
 
 	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 	@media only screen and (max-width: 479px) {
 		.right, .right__menu__top__header{
 			text-align: center !important;
+		}
+		.banner__home__header{
+			display: none;
+		}
+		.footer__logos ul li img{
+			margin-bottom: 20px;
+		}
+		.copyright{
+			text-align: center;
+		}
+		.logo__footer{
+			text-align: center !important;
+			margin: 0 auto;
+		}
+		.logo__footer img{
+			width: 50%;
+			margin: 0 auto !important;
+		}
+		.lo__mas__destacado h3{
+			max-width: 100%;
+		}
+		.ads__header_phone{
+			display: inline-block;
+		}
+		.ads__header_phone img{
+			text-align: center;
+		}
+		.menu__header{
+			border: none;
+		}
+		.buscar{
+			position: static;
 		}
 	}

@@ -53,7 +53,7 @@
 			</div>
 
 			<!-- Texto y logo Tekton Copyright -->
-			<div class="six columns">
+			<div class="six columns logo__footer">
 				<div class="row">
 					<div class="nine columns text__copyright center">
 						<p><strong>Todos los derechos reservados a Editorial Maldonado S.A  - ISSN 1657 - 5628</strong></p>

@@ -87,4 +87,8 @@ footer{
 .text__copyright p{
 	margin-bottom: 0px;
 	font-size: 10px;
+	line-height: 10px;
+}
+.text__copyright p strong{
+	line-height: 18px;
 }
